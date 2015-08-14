@@ -1,0 +1,21 @@
+1. File list
+.
+├── config
+├── device_object_relationship.dia
+├── device_object_relationship.png
+├── devkmem
+├── devmem2
+├── dra7.dtsi
+├── sgm358.dts
+├── spidev.c
+├── spidev_test.bin
+├── spi_driver_for_ip31.png
+└── spi_driver_framework.dia
+
+2. Specification
+1) config: modified the config file in order to build spidev.c 
+   Device Drivers ---> SPI support ---> select User mode SPI device driver support
+
+2) spidev.c: to create thirteen virtual spi device.
+
+
